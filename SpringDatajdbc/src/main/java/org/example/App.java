@@ -14,7 +14,7 @@ public class App
              model model = new model();
              model.setName("Bhushan");
              model.setEmail("bhushan@1312");
-                model.setPrice(10000);
+             model.setPrice(10000);
 
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfiguration.class);
 

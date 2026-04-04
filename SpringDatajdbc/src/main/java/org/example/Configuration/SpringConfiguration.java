@@ -24,13 +24,13 @@ public class SpringConfiguration {
     private Environment environment;
 
 @Bean
-    public   DataSource dataSource(){
+    public DataSource dataSource(){
 
-        DriverManagerDataSource dataSource =  new DriverManagerDataSource();
+    DriverManagerDataSource dataSource =  new DriverManagerDataSource();
               dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
               dataSource.setUrl("jdbc:mysql://localhost:3306/college_db121");
               dataSource.setUsername("root");
-                 dataSource.setPassword("root");
+              dataSource.setPassword("root");
 
 
         return  dataSource;

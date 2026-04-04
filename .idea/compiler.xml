@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringDatajdbc" />
         <module name="springcorestereotypeconfuguration_003" />
+        <module name="untitled" />
         <module name="springjavawayconfiguration" />
         <module name="springxmlwayconfiguration" />
       </profile>
